@@ -80,7 +80,7 @@ let isLoading = true;
 	}
 </style>
 {#if error}
-	<Error message={error.message/>
+	<Error message={error.message}/>
 {/if}
 
 <Header />
