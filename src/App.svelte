@@ -6,7 +6,7 @@
 	import Button from "./UI/Button.svelte";
 	import EditMeetup from "./Meetups/EditMeetup.svelte";
 	import MeetupDetail from "./Meetups/MeetupDetail.svelte";
-	import LoadingSpinner from './Ui/LoadingSpinner.svelte';
+	import LoadingSpinner from './UI/LoadingSpinner.svelte';
 	import Error from './UI/Error.svelte';
 
 	// let meetups = ;
