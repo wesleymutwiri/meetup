@@ -11,11 +11,16 @@
 
 	// let meetups = ;
 
-	let editMode;
-	let editedId;
+  let editMode;
+
+  let editedId;
+
 	let page = "overview";
-	let pageData = {};
-	let isLoading = true;
+
+  let pageData = {};
+
+
+let isLoading = true;
 	let error;
 	fetch('https://sveltemeetup.firebaseio.com/meetups.json')
 		.then(res => {

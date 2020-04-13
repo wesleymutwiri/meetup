@@ -10,4 +10,5 @@ const app = new App({
 // 	target: document.querySelector('#header')
 // })
 
+
 export default app;
